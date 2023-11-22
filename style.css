@@ -1,0 +1,12 @@
+body{
+    background-color: #2c2f33;
+}
+h1,h2{color: #7289da;
+text-align: center;}
+
+p,h3,h5{
+    color: #ffff;
+    background-color:23272a;
+    height: 10%;
+    width: 30;
+}
