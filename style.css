@@ -4,7 +4,29 @@ body{
 h1,h2{color: #7289da;
 text-align: center;}
 
-p,h3,h5{
+h3{
+    color: #ffff;
+    background-color:23272a;
+    height: 10%;
+    width: 30;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #23272a;
+    padding: 10px;
+}
+.grid-item 
+    {
+        background-color: 23272a;
+        border: 1px solid #7289da;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+
+p{
     color: #ffff;
     background-color:23272a;
     height: 10%;
