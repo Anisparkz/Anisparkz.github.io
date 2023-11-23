@@ -1,14 +1,13 @@
-
 body {
-    background-color: #f4f4f4;
     background-image: url(background.jpg);
-    color: #333;
+    background-color: rgba(0,0,0,0.5);
+    color: #333333;
     font-family: 'Arial', sans-serif;
     line-height: 1;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-origin: content-box;
-    background-blend-mode: multiply;
+   
 }
 
 header {
