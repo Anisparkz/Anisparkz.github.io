@@ -1,76 +1,101 @@
-
-
-body { background-image: linear-gradient(#36393f,#202225); 
- color: #ffff;
- font-family: 'Arial', sans-serif; line-height: 1.6; 
- margin: auto;
-} 
-
-.card {
- 
-   color: rgb(242, 88, 88);
-}
-header {
-    background: #5865f2;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #ccc;
-}
-
-section {
-    padding: 20px;
-    margin: 20px 0;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: px;
-    background-color: #bebbbe;
-    padding: px;
-}
-
-.grid-item {
-    background-color: #202225;
-    border: 1px solid #ffff;
-    padding: 20px;
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #5865f2;
+body { background-color: #36393f;
     color: #ffff;
-}
-h1{
+    background-image: url("bg2.jpg");
+    font-family: 'Arial', sans-serif; 
+     line-height: 1.6;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     overflow-x: hidden; 
+     
+   } 
+   
+   
+   header {
+       background: #5865f2;
+       color: #fff;
+       padding: 1rem 0;
+       text-align: center;
+   }
+   
+   nav ul {
+       list-style: none;
+       padding: 0;
+   }
+   
+   nav ul li {
+       display: inline;
+       margin: 20px;
+   }
+   
+   nav ul li a {
+       color: #fff;
+       text-decoration: none;
+   }
+   
+   nav ul li a:hover {
+       color: #ccc;
+   }
+   
+   section {
+       padding: 20px;
+       margin: 20px ;
+   }
+   .overlay{ background-image: linear-gradient(rgba(3, 3, 3, 0.7),rgba(3, 3, 3, 0.9));
+   }
+   
+   .grid-container {
+       display: grid;
+       grid-template-columns: auto auto;
+       gap: px;
+       background-color: #20222575;
+       border: 1px solid #5865f2;
+   }
+   
+   .grid-item {
+       background-color: #20222500;
+       border: 1px solid #5865f2;
+       padding: 20px;
+       text-align: center;
+   
+   }
+   
+   footer {
+       text-align: center;
+       padding: 20px;
+       background: #5865f2;
+       color: #ffff;
+   }
+   h1{
+      text-align: center;
+       font-size: 48px;
+   }
+   h2{
+       
+       font-size: 36px;
+   }
+   .text1 {
+    display: flex;
+    justify-content: center;  /*Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 200px; /* Set a specific height for the div */
+
+    }
+   p{ 
     text-align: center;
-    font-size: 48px;
-}
-h2{
-    text-align: center;
-    font-size: 36px;
-}
-p{
-    text-align: center;
-    font-size: 16px;
-}
+        font-size: 16px;
+   }
+   .button{
+     height: 100px;
+     width: 200px;
+     background: #5865f2;
+     font-size: 48px;
+     text-align: center;
+     display: flex;
+  justify-content: center;  /*Horizontal centering */
+  align-items: center;
+   }
+   .widget{
+    position: absolute;
+    left: 70%;
+   }
