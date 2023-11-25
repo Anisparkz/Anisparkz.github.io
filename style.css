@@ -45,7 +45,7 @@ body { background-color: #36393f;
    }
    
    .grid-container {
-       display: grid;
+       display: inline-grid;
        grid-template-columns: auto auto;
        gap: px;
        background-color: #20222575;
@@ -91,9 +91,9 @@ body { background-color: #36393f;
      background: #5865f2;
      font-size: 48px;
      text-align: center;
-     display: flex;
-  justify-content: center;  /*Horizontal centering */
-  align-items: center;
+     display: block;
+     margin: auto;
+  
    }
    .widget{
     position: absolute;
