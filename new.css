@@ -1,6 +1,6 @@
 body { background-color: #36393f;
     color: #ffff;
-    background-image: url("bg2.jpg");
+    background-image: url("bg.jpg");
     font-family: 'Arial', sans-serif; 
      line-height: 1.6;
      background-size: cover;
@@ -16,7 +16,7 @@ body { background-color: #36393f;
        color: #fff;
        padding: 1rem 0;
        text-align: center;
-       border-radius: 15px;
+       border-radius: 15px 15px 5px 5px;
    }
    
    nav ul {
@@ -65,7 +65,7 @@ body { background-color: #36393f;
     padding: 20px;
     background: #5865f2;
     color: #ffff;
-    border-radius: 15px;
+    border-radius: 5px 5px 15px 15px;
    }
    .grid-container{
     display: grid;
@@ -78,10 +78,10 @@ body { background-color: #36393f;
    }
    .item1{ grid-area: a;}
    .item2{grid-area: b;
-    left: 10px;
-    bottom: 40px;
+    position: relative;
+   left: 20px;
+    bottom: 10px;
 }
-
 .container{
 display: inline-grid;
        grid-template-columns: auto auto;
@@ -105,7 +105,31 @@ display: inline-grid;
     background-color: #5865f2;
     padding: 15PX , 20PX;
     border-radius: 15PX;
-    font-size: 48PX;
-
-
+    font-size: 45PX;
+    width: 200px;
+    margin: 0 auto;
+    font-family: sans-serif;
   }
+  .button a:hover {
+    color: #ccc;}
+
+
+    @media only screen and (max-width: 550px){
+    .grid-container{
+    grid-template-columns: 1fr;
+    grid-template-areas: "a"
+    "b";
+    }
+    .container    {
+        grid-template-columns: 1fr;
+        grid-template-areas: "a"
+        "b";
+        }
+
+}
+.promo{
+text-align: center;
+
+
+}
+        
