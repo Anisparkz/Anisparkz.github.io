@@ -95,12 +95,17 @@ display: inline-grid;
         text-align: center;
     }
 
-    .my-button{
-    background-color: #5865f2;
-    font-size: 48px;
-    color: white;
-    padding: 15px 25px;
-    text-decoration: none;
-    text-align: center;
+    a, a:link, a:visited {
+        color: #FFFAFA;
+        text-decoration: none;
+       
     }
-  
+  .button{
+    text-align: center;
+    background-color: #5865f2;
+    padding: 15PX , 20PX;
+    border-radius: 15PX;
+    font-size: 48PX;
+
+
+  }
