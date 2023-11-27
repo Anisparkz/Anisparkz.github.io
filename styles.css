@@ -49,6 +49,7 @@ body { background-color: #36393f;
          h2{
        
             font-size: 36px;
+            text-align: center;
    }
    .text1{
     text-align: center;
@@ -92,6 +93,7 @@ display: inline-grid;
     .c{
         padding: 20px;
         text-align: center;
+     
     }
 
     a, a:link, a:visited {
